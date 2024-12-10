@@ -45,7 +45,7 @@ Make sure you have the following installed:
 1. Clone the repository:  
 
     ```bash  
-    git clone 
+    git clone https://github.com/ola-goldin/TasksTodoApp.git
     ```  
 
 2. Navigate to the project directory:  
