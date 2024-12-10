@@ -1,4 +1,4 @@
-# MERN Task Todo List App  
+# MERN Task Todo App  
 
 ## Table of Contents  
 
