@@ -1,0 +1,136 @@
+* {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.create_form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.create_form input {
+    width: 200px;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.create_form input:focus {
+    border-color: #ff6f61;
+}
+
+.create_form button {
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    width: 100px;
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: rgb(250, 42, 42);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+    margin: 0;
+    padding-left: 10px;
+    color: #333;
+    word-break: break-word;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+}
+
+.create_form button:hover {
+    background-color: #e04e46;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: solid 1px #ccc;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    max-width: 40rem;
+}
+
+.task:hover {
+    background-color: #f9f9f9;
+    transform: scale(1.02);
+}
+
+p {
+    font-size: 20px;
+    margin: 0;
+    padding-left: 10px;
+    color: #333;
+}
+
+i {
+    cursor: pointer;
+    margin: 10px;
+    font-size: 30px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+i:hover,
+.error {
+    color: #ff6f61;
+}
+
+.line_through {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.task+.task {
+    margin-top: 10px;
+}
+
+.uil-check-circle {
+    color: green;
+    margin-left: 0;
+}
+
+.uil-circle {
+    margin-left: 0;
+}
+
+.center {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
